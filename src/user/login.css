@@ -1,0 +1,63 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Light gray background */
+  }
+  
+  /* Style the login container */
+  .container {
+    padding: 16px;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-width: 300px;
+    margin: 50px auto;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Style the login form */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Style the username and password labels */
+  label {
+    padding-bottom: 10px;
+    display: block;
+  }
+  
+  /* Style the username and password input fields */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style the login button */
+  button {
+    background-color:  	#CF9FFF;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .space{
+    height: 100px;
+    width: 50px;
+  }
+  
+  

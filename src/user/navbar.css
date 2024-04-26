@@ -1,0 +1,39 @@
+
+nav {
+    float: right;
+    background-color: #CF9FFF; 
+    height: 70px;
+    width:100%;
+    overflow: hidden;
+    border: 2px solid;
+    border-color: black;
+    text-align:end;
+    margin-bottom: 50px;
+    border-radius: 50px;
+   
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    font-size: larger;
+    
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px; /* Adjusted padding */
+}
+
+nav ul li a {
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 16px; /* Adjusted font size */
+    
+}
+
+nav ul li a:hover {
+    background-color: #6a1b9a; /* Darker shade of purple on hover */
+}
