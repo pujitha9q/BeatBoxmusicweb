@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, Link,useNavigate } from 'react-router-dom';
-import config from '../config';
+
 import AdminHome from './AdminHome';
 import ViewUsers from './ViewUsers';
-// import AdminLogin from './AdminLogin';
+
 
 
 export default function AdminNavBar() {
@@ -28,7 +28,7 @@ export default function AdminNavBar() {
         </ul>
       </nav>
       <Routes>
-      {/* <Route path='/adminlogin' element={<AdminLogin/>} /> */}
+    
 
         <Route path='/adminhome' element={<AdminHome />}  exact/>
         <Route path='/viewusers' element={<ViewUsers />}  exact/>
