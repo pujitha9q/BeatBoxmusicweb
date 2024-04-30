@@ -1,8 +1,8 @@
 import React from 'react';
-import { Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { Routes, Route, Link} from 'react-router-dom';
 import SignUp from './SignUp';
-import './navbar.css'; // Assuming you have a CSS file named navbar.css
-// import AdminLogin from './AdminLogin';
+import './navbar.css'; 
+
 import Home from './Home';
 import UserLogin from './UserLogin';
 import UserHome from './UserHome';
@@ -43,3 +43,4 @@ export default function UserNavBar() {
     </div>
   );
 }
+
