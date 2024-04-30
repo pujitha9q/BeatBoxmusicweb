@@ -10,7 +10,7 @@ import happierthanever from '../images/happierthanever.jpg';
 import shapeofu from '../images/shapeofu.jpg';
 import dandelions from '../images/dandelions.jpg';
 import teenagedream from '../images/teenagedream.png';
-import config from '../config';
+
 
 
 export default function Home() {
