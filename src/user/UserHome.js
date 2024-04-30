@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import wbys from '../images/wbys.jpg'
+import React from 'react';
+import wbys from '../images/wbys.jpg';
 import shape from '../images/shapeofu.jpg';
 import wbysaudio from '../audio/wbysaudio.mp3';
 import shapeofu from '../audio/shapeofu.mp3';
@@ -15,100 +15,95 @@ import dandii from '../audio/dandelions.mp3';
 import mkbrd from '../audio/mockingbird.mp3';
 import toxic from '../images/toxic.jpg';
 import txq from '../audio/toxic.mp3';
-import config from '../config';
-const AudioPlayer = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  
 
+const AudioPlayer = () => {
   return (
-    <div align="center"  >
-        <br></br><br></br>
-      <img src={wbys} alt='wbys' width={300} height={300}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src={shape} alt='sou' width={300} height={300}/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src={startboy} alt='sb' width={300} height={300}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src={lethergo} alt='lhg' width={300} height={300}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     
-      <br/>
+    <div align="center">
+      <br />
+      <br />
+      <img src={wbys} alt='wbys' width={300} height={300} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src={shape} alt='sou' width={300} height={300} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src={startboy} alt='sb' width={300} height={300} /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src={lethergo} alt='lhg' width={300} height={300} /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <br />
       <audio
         src={wbysaudio}
         controls
         autoPlay={false}
-        onPause={() => setIsPlaying(false)}
-        onPlay={() => setIsPlaying(true)}
-      /> 
-     
-     
-    
-       <audio
+        onPause={() => {}}
+        onPlay={() => {}}
+      />
+
+      <audio
         src={shapeofu}
         controls
         autoPlay={false}
-        onPause={() => setIsPlaying(false)}
-        onPlay={() => setIsPlaying(true)}
-        />
-      
+        onPause={() => {}}
+        onPlay={() => {}}
+      />
+
 
       <audio
         src={starboy}
         controls
         autoPlay={false}
-        onPause={() => setIsPlaying(false)}
-        onPlay={() => setIsPlaying(true)}
-        />
-         
+        onPause={() => {}}
+        onPlay={() => {}}
+      />
+
 
       <audio
         src={letergo}
         controls
         autoPlay={false}
-        onPause={() => setIsPlaying(false)}
-        onPlay={() => setIsPlaying(true)}
-      /> 
-     
-      
-      <br/>
-      <br/>
-      <img src={teenagedream} alt='tngd' width={300} height={300}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src={dandelions} alt='taad' width={300} height={300}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src={superman} alt='taapp' width={300} height={300}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <img src={toxic} alt='taapp' width={300} height={300}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     
-<br/>
+        onPause={() => {}}
+        onPlay={() => {}}
+      />
+
+      <br />
+      <br />
+      <img src={teenagedream} alt='tngd' width={300} height={300} /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src={dandelions} alt='taad' width={300} height={300} /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src={superman} alt='taapp' width={300} height={300} /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src={toxic} alt='taapp' width={300} height={300} /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <br />
       <audio
         src={teenage}
         controls
         autoPlay={false}
-        onPause={() => setIsPlaying(false)}
-        onPlay={() => setIsPlaying(true)}
-        />
+        onPause={() => {}}
+        onPlay={() => {}}
+      />
 
-<audio
+      <audio
         src={dandii}
         controls
         autoPlay={false}
-        onPause={() => setIsPlaying(false)}
-        onPlay={() => setIsPlaying(true)}
-      /> 
+        onPause={() => {}}
+        onPlay={() => {}}
+      />
 
-<audio
+      <audio
         src={mkbrd}
         controls
         autoPlay={false}
-        onPause={() => setIsPlaying(false)}
-        onPlay={() => setIsPlaying(true)}
-        />
+        onPause={() => {}}
+        onPlay={() => {}}
+      />
 
-       <audio
+      <audio
         src={txq}
         controls
         autoPlay={false}
-        onPause={() => setIsPlaying(false)}
-        onPlay={() => setIsPlaying(true)}
-      /> 
-        
-      
+        onPause={() => {}}
+        onPlay={() => {}}
+      />
+
     </div>
   );
 };
 
 export default AudioPlayer;
+
