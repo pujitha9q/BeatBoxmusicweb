@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link,useNavigate } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 
 import AdminHome from './AdminHome';
 import ViewUsers from './ViewUsers';
